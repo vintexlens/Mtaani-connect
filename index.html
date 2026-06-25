@@ -1,172 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>VINTEXLENS | AI Workforce & Remote Opportunities</title>
-  <meta name="description" content="VINTEXLENS is a remote-first AI workforce agency providing trained data annotators and verified remote work opportunities." />
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.6;
-      color: #222;
-      background: #f9f9f9;
-    }
-    header {
-      background: #0f172a;
-      color: #fff;
-      padding: 60px 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin-bottom: 10px;
-      font-size: 2.2rem;
-    }
-    header p {
-      max-width: 700px;
-      margin: auto;
-      font-size: 1.1rem;
-    }
-    .btn {
-      display: inline-block;
-      margin: 15px 10px 0;
-      padding: 12px 24px;
-      background: #2563eb;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-    .btn.secondary {
-      background: #16a34a;
-    }
-    section {
-      padding: 60px 20px;
-      max-width: 1000px;
-      margin: auto;
-      background: #fff;
-      margin-bottom: 20px;
-      border-radius: 8px;
-    }
-    h2 {
-      margin-bottom: 20px;
-      color: #0f172a;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .card {
-      padding: 20px;
-      border: 1px solid #ddd;
-      border-radius: 6px;
-      background: #fafafa;
-    }
-    footer {
-      text-align: center;
-      padding: 30px 20px;
-      background: #0f172a;
-      color: #fff;
-      font-size: 0.9rem;
-    }
-    footer a {
-      color: #93c5fd;
-      text-decoration: none;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintex Lens | AI Data Operations & Digital Workforce</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #0b0f19; color: #f3f4f6; font-family: system-ui, -apple-system, sans-serif; }
+        .glass-card { background: rgba(17, 24, 39, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        .glow-effect:hover { box-shadow: 0 0 20px rgba(59, 130, 246, 0.2); transition: all 0.3s ease; }
+    </style>
 </head>
-<body>
+<body class="min-h-screen">
 
-<header>
-  <h1>VINTEXLENS</h1>
-  <p>
-    Reliable AI Data Annotation — Plus Real Remote Work Opportunities
-  </p>
-  <p>
-    We support AI companies with trained annotators and help individuals access legitimate ways to earn online.
-  </p>
-  <a href="#services" class="btn">Hire Annotators</a>
-  <a href="#join" class="btn secondary">Join Our Team</a>
-</header>
+    <!-- Header / Navigation -->
+    <nav class="sticky top-0 z-50 glass-card border-b border-gray-800 px-6 py-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="bg-blue-600 text-white p-2 rounded-lg font-bold tracking-wider text-sm">VL</div>
+                <span class="text-xl font-bold tracking-tight text-white">Vintex <span class="text-blue-500">Lens</span></span>
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-300">
+                <a href="#about" class="hover:text-blue-400 transition">About</a>
+                <a href="#services" class="hover:text-blue-400 transition">Services</a>
+                <a href="#ecosystem" class="hover:text-blue-400 transition">Ecosystem</a>
+                <a href="#industries" class="hover:text-blue-400 transition">Industries</a>
+            </div>
+            <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium px-5 py-2.5 rounded-lg transition shadow-lg shadow-blue-500/20">
+                Contact Us
+            </a>
+        </div>
+    </nav>
 
-<section id="who">
-  <h2>Who We Help</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>AI Companies & Platforms</h3>
-      <p>
-        We work with AI startups, research teams, and data platforms that need scalable, high-quality human annotation and evaluation.
-      </p>
-    </div>
-    <div class="card">
-      <h3>Individuals Seeking Remote Income</h3>
-      <p>
-        We help people avoid scams and confusion by connecting them to verified, job-ready platforms and structured agency work.
-      </p>
-    </div>
-  </div>
-</section>
+    <!-- Hero Section -->
+    <header class="relative overflow-hidden py-24 px-6 border-b border-gray-900">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(37,99,235,0.1),transparent_50%)]"></div>
+        <div class="max-w-5xl mx-auto text-center relative z-10">
+            <span class="text-xs font-semibold tracking-widest text-blue-400 uppercase bg-blue-500/10 px-3 py-1.5 rounded-full">Next-Gen Data Logistics</span>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white mt-6 mb-6 leading-tight">
+                Human Expertise. <br><span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-400">Production-Grade AI Data.</span>
+            </h1>
+            <p class="text-lg text-gray-400 max-w-3xl mx-auto mb-10 leading-relaxed">
+                Nearly a decade of global AI training experience packaged into a premium B2B Data Operations infrastructure partner, a managed specialty annotation agency, and a digital workforce academy.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="#services" class="bg-gray-800 hover:bg-gray-700 text-white font-medium px-8 py-3.5 rounded-lg transition border border-gray-700">Explore Services</a>
+                <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-8 py-3.5 rounded-lg transition shadow-lg shadow-blue-500/20">Deploy a Workforce</a>
+            </div>
+        </div>
+    </header>
 
-<section id="services">
-  <h2>What We Do</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>AI Data Annotation</h3>
-      <p>Image, text, audio labeling, AI response evaluation, and content moderation.</p>
-    </div>
-    <div class="card">
-      <h3>Managed Workforce</h3>
-      <p>20–50 trained annotators working under centralized SOPs and quality control.</p>
-    </div>
-    <div class="card">
-      <h3>Remote Work Access</h3>
-      <p>Curated referrals to trusted platforms and tools for earning online.</p>
-    </div>
-  </div>
-</section>
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-3xl font-bold text-white mb-6 tracking-tight">Bridging the Gap Between AI Models and Raw Reality</h2>
+                <p class="text-gray-400 leading-relaxed mb-6">
+                    Vintex Lens is an AI data operations and digital workforce company dedicated to supporting organizations, startups, research institutions, and enterprises with high-quality data services and professional training.
+                </p>
+                <p class="text-gray-400 leading-relaxed mb-8">
+                    Our unique asset is an internal loop ecosystem: Our Academy trains regional talent on advanced tooling layouts, and our Agency deploys the top 5% of certified performers directly onto high-stakes client data pipelines. 
+                </p>
+                <div class="p-4 bg-blue-950/40 border border-blue-900/50 rounded-xl flex items-start space-x-3">
+                    <i class="fa-solid fa-shield-halved text-blue-400 mt-1 text-lg"></i>
+                    <p class="text-sm text-blue-200/80 leading-relaxed"><strong class="text-blue-300">The Quality Standard:</strong> We eliminate model drift and structural noise through deterministic, tier-2 quality assurance processes driven by technical IT leaders.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="glass-card p-6 rounded-xl border border-gray-800">
+                    <div class="text-3xl font-extrabold text-blue-400 mb-2">10+</div>
+                    <div class="text-xs uppercase tracking-wider text-gray-400 font-medium">Years Global Experience</div>
+                </div>
+                <div class="glass-card p-6 rounded-xl border border-gray-800">
+                    <div class="text-3xl font-extrabold text-blue-400 mb-2">100%</div>
+                    <div class="text-xs uppercase tracking-wider text-gray-400 font-medium">QA Checked Outputs</div>
+                </div>
+                <div class="glass-card p-6 rounded-xl border border-gray-800">
+                    <div class="text-3xl font-extrabold text-blue-400 mb-2">3+</div>
+                    <div class="text-xs uppercase tracking-wider text-gray-400 font-medium">Enterprise Pillars</div>
+                </div>
+                <div class="glass-card p-6 rounded-xl border border-gray-800">
+                    <div class="text-3xl font-extrabold text-blue-400 mb-2">LiDAR</div>
+                    <div class="text-xs uppercase tracking-wider text-gray-400 font-medium">Spatial Tracking Ready</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section id="why">
-  <h2>Why VINTEXLENS</h2>
-  <ul>
-    <li>Pre-vetted remote annotators</li>
-    <li>Centralized quality assurance</li>
-    <li>Clear workflows and accountability</li>
-    <li>Transparent processes and disclosures</li>
-    <li>Remote-first and scalable</li>
-  </ul>
-</section>
+    <!-- Core Business Pillars (Services) -->
+    <section id="services" class="py-20 px-6 bg-gray-950 border-y border-gray-900">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-white mb-4 tracking-tight">Our Core Operational Pillars</h2>
+                <p class="text-gray-400 text-sm leading-relaxed">Three distinct arms operating under a single brand identity to build reliable dataset architectures and prepare skilled talent.</p>
+            </div>
 
-<section id="join">
-  <h2>Join the VINTEXLENS Network</h2>
-  <p>
-    Interested in earning remotely or contributing to AI projects?
-  </p>
-  <p>
-    Join VINTEXLENS to access agency-backed work, training resources, and referrals to verified platforms.
-  </p>
-  <p>
-    <strong>One-time onboarding fee: $10</strong><br>
-    This covers training access, vetting, and administrative costs. Opportunities depend on performance, availability, and platform demand.
-  </p>
-  <a href="mailto:support@vintexlens.com" class="btn">Apply to Join</a>
-</section>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- Pillar 1: Enterprise Consulting -->
+                <div class="glass-card p-8 rounded-2xl glow-effect flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center mb-6">
+                            <i class="fa-solid fa-diagram-project text-blue-400 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3">1. Dataset Consulting</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6">We map out dataset pipelines, remove ambiguity from edge cases, and design bulletproof data infrastructure paths.</p>
+                        <ul class="space-y-2.5 text-xs text-gray-400">
+                            <li class="flex items-center"><i class="fa-solid fa-check text-blue-500 mr-2"></i> Dataset planning & taxonomy design</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-blue-500 mr-2"></i> Annotation guideline creation</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-blue-500 mr-2"></i> Workflow optimization metrics</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-blue-500 mr-2"></i> Quality Assurance framework builds</li>
+                        </ul>
+                    </div>
+                </div>
 
-<section id="opportunities">
-  <h2>Trusted Opportunities & Resources</h2>
-  <p>
-    We share carefully selected platforms, tools, and resources for remote workers.
-    Some links may be affiliate links, which support our operations at no extra cost to you.
-  </p>
-</section>
+                <!-- Pillar 2: Managed Agency -->
+                <div class="glass-card p-8 rounded-2xl glow-effect flex flex-col justify-between border-blue-900/40 relative">
+                    <span class="absolute top-4 right-4 bg-blue-500 text-white font-bold text-[10px] tracking-widest px-2 py-0.5 rounded-full uppercase">Scale Ops</span>
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center mb-6">
+                            <i class="fa-solid fa-users text-blue-400 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3">2. Managed Agency</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6">Scale up operations smoothly. We supervise fully managed squads for high-complexity visual and textual datasets.</p>
+                        <ul class="space-y-2.5 text-xs text-gray-400">
+                            <li class="flex items-center"><i class="fa-solid fa-check text-blue-500 mr-2"></i> Computer Vision: Boxes, Polygons, Segmentation</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-blue-500 mr-2"></i> Complex 3D LiDAR & Video Tracking</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-blue-500 mr-2"></i> Advanced AI Safety & RLHF Feedback Tuning</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-blue-500 mr-2"></i> Multi-lingual translation & verified transcription</li>
+                        </ul>
+                    </div>
+                </div>
 
-<footer>
-  <p>
-    © 2026 VINTEXLENS · <a href="#">Privacy Policy</a> · <a href="#">Terms</a> · <a href="#">Affiliate Disclosure</a>
-  </p>
-  <p>Contact: support@vintexlens.com</p>
-</footer>
+                <!-- Pillar 3: Academy Training -->
+                <div class="glass-card p-8 rounded-2xl glow-effect flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center mb-6">
+                            <i class="fa-solid fa-graduation-cap text-blue-400 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3">3. Training Academy</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6">We upskill regional professionals on advanced digital operations, generating human annotation forces matching world expectations.</p>
+                        <ul class="space-y-2.5 text-xs text-gray-400">
+                            <li class="flex items-center"><i class="fa-solid fa-check text-blue-500 mr-2"></i> Remote workforce readiness & professionalism</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-blue-500 mr-2"></i> Deep-dive CVAT workspace training</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-blue-500 mr-2"></i> Vendor credentialing exam optimization</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-blue-500 mr-2"></i> Corporate & NGO capability workshops</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industry Grid -->
+    <section id="industries" class="py-20 px-6 max-w-7xl mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <h2 class="text-3xl font-bold text-white mb-4 tracking-tight">Supported Industry Frameworks</h2>
+            <p class="text-gray-400 text-sm leading-relaxed">Delivering compliant datasets across advanced global sectors.</p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+            <div class="bg-gray-900/40 p-4 rounded-xl border border-gray-800 text-center font-medium text-sm text-gray-300">Autonomous Vehicles</div>
+            <div class="bg-gray-900/40 p-4 rounded-xl border border-gray-800 text-center font-medium text-sm text-gray-300">Healthcare Systems AI</div>
+            <div class="bg-gray-900/40 p-4 rounded-xl border border-gray-800 text-center font-medium text-sm text-gray-300">Geospatial Intelligence</div>
+            <div class="bg-gray-900/40 p-4 rounded-xl border border-gray-800 text-center font-medium text-sm text-gray-300">Natural Language NLP</div>
+            <div class="bg-gray-900/40 p-4 rounded-xl border border-gray-800 text-center font-medium text-sm text-gray-300">Retail Tech & E-comm</div>
+        </div>
+    </section>
+
+    <!-- Integration & Compliance Grid (Ecosystem) -->
+    <section id="ecosystem" class="py-16 px-6 bg-gray-950 border-t border-gray-900 text-center">
+        <div class="max-w-7xl mx-auto">
+            <h4 class="text-xs font-semibold tracking-widest text-gray-500 uppercase mb-8">Decade-Long Platform Familiarity & Technical Alignment</h4>
+            <div class="flex flex-wrap justify-center items-center gap-6 md:gap-12 opacity-50 grayscale hover:opacity-80 transition">
+                <span class="text-sm font-bold tracking-wider text-gray-400">TELUS AI</span>
+                <span class="text-sm font-bold tracking-wider text-gray-400">ONEFORMA</span>
+                <span class="text-sm font-bold tracking-wider text-gray-400">CLICKWORKER</span>
+                <span class="text-sm font-bold tracking-wider text-gray-400">CVAT SUITE</span>
+                <span class="text-sm font-bold tracking-wider text-gray-400">MICRO1</span>
+                <span class="text-sm font-bold tracking-wider text-gray-400">GIENTECH</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Footer -->
+    <footer id="contact" class="bg-gray-950 py-16 px-6 border-t border-gray-900 text-center text-sm text-gray-400">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-2xl font-bold text-white mb-2 tracking-tight">Let's build better AI together.</h2>
+            <p class="text-gray-400 mb-8 max-w-md mx-auto text-xs leading-relaxed">Partner with Vintex Lens to configure workflows, secure managed annotation pools, or run digital skills events.</p>
+            <div class="inline-flex flex-col sm:flex-row items-center space-y-3 sm:space-y-0 sm:space-x-6 p-4 bg-gray-900 rounded-2xl border border-gray-800 mb-10 w-full justify-around max-w-xl mx-auto">
+                <div>
+                    <span class="block text-[10px] uppercase font-bold tracking-wider text-gray-500 mb-0.5">Corporate Identity</span>
+                    <span class="text-sm font-semibold text-white">Vintex Lens Global</span>
+                </div>
+                <div class="h-px w-8 bg-gray-800 sm:h-6 sm:w-px"></div>
+                <div>
+                    <span class="block text-[10px] uppercase font-bold tracking-wider text-gray-500 mb-0.5">Operations Location</span>
+                    <span class="text-sm font-semibold text-white">Maseno, Kenya</span>
+                </div>
+            </div>
+            <p class="text-[11px] text-gray-600">&copy; 2026 Vintex Lens. All rights reserved. Precision-tuned AI Data Logistics.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
